@@ -1,5 +1,18 @@
-# Object file
-*.o
+# WhatsApp Session / Auth Data (CRITICAL: Keeps your account session private)
+auth_info_baileys/
+*.session
 
-# Ada Library Information
-*.ali
+# Node.js Dependencies (Prevents uploading thousands of downloaded package files)
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# Log Files
+*.log
+npm-debug.log*
+
+# Operating System Metadata
+.DS_Store
+Thumbs.db
